@@ -110,7 +110,7 @@ class _HomeState extends State<Home> {
                       _addToDoItem(_todoController.text);
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: tdBlue,
+                      backgroundColor: tdBlue,
                       minimumSize: Size(60, 60),
                       elevation: 10,
                     ),
